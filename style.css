@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgb(29, 29, 29);
+}
+.container{
+    width: 1200px;
+    /* background-color: antiquewhite; */
+    margin: 0 auto;
+}
+/* ---start header--- */
+.header{
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    background-color: white;
+}
+/* ---end header--- */
+/* ---start navbar--- */
+.navbar{
+    width: 100%;
+    background-color: rgb(31, 29, 29);
+    color: white;
+    padding-left:200px;
+    padding-right: 200px; 
+    display: flex;
+    text-align: center;
+    justify-items: center;
+    
+}
+.home{
+    width: 100px;
+    /* border: 1px solid rgb(250, 248, 248); */
+    padding: 20px;
+}
+.dropdown{
+    width: 100px;
+    /* border: 1px solid rgb(250, 248, 248); */
+    padding: 20px;
+}
+.leftSidebar{
+    width: 150px;
+    /* border: 1px solid rgb(250, 248, 248); */
+    padding: 20px;
+}
+.rightSidebar{
+    width: 150px;
+    /* border: 1px solid rgb(250, 248, 248); */
+    padding: 20px;
+}
+.towSidebar{
+    width: 150px;
+    /* border: 1px solid rgb(250, 248, 248); */
+    padding: 20px;
+}
+.noSidebar{
+    width: 150px;
+    /* border: 1px solid rgb(250, 248, 248); */
+    padding: 20px;
+}
+/* ---end navbar--- */
+
+/* ---start cover--- */
+.cover img{
+    width: 100%;
+    height: 250px;
+}
+/* ---end cover--- */
+
+/* ---start pb--- */
+.pb{
+    display: flex;
+    padding: 20px;
+    background-color: rgb(31, 29, 29);
+    color: white;
+    margin: 0 auto;
+    justify-content: center;
+}
+.b{
+    padding: 13px;
+
+}
+/* ---end pb--- */
+/* ---start main_1--- */
+.main_1{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;  
+   background-color: rgb(255, 255, 255);
+}
+.main1{
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+}
+.pic>img{
+    border-radius: 50%;
+    width:25%;
+    justify-content: center;
+}
+/* ---end main_1--- */
+
+/* ---start main_2--- */
+.main_2{
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+   padding: 40px;
+   text-align: center;
+}
+/* ---end main_2--- */
+
+/* ---start main_3--- */
+.main_3{
+    width: 100%;
+    text-align: justify;
+    background-color: rgb(255, 255, 255);
+
+    
+}
+.box{
+    width: 40%;
+    display: flex;
+    
+}
+.ph{
+    width: 40%;
+    padding-top: 40px;
+    padding-right:0px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+}
+.ph>img{
+    width: 80%;
+}
+.content{
+    width: 60%;
+    padding-top: 20px;
+}
+/* ---emd main_3--- */
+/* ---start pb--- */
+.pb1{
+    display: flex;
+    padding: 20px;
+    background-color: rgba(20, 165, 201, 0.692);
+    color: white;
+    margin: 0 auto;
+    justify-content: center;
+}
+.b{
+    padding: 13px;
+
+}
+/* ---end pb--- */
+
